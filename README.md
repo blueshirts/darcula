@@ -23,14 +23,14 @@ Type `"colorscheme darcula"` into your vimrc file.
 Add the following content to the `.vim/after/syntax/coffee/coffee.vim` file.  This configuration is required with most
 VIM CoffeeScript syntax highlighters in order to properly color the '@' (this) symbol.
 
-   hi clear coffeeParens
-   hi coffeeParens NONE
-   syn clear coffeeParens
+    hi clear coffeeParens
+    hi coffeeParens NONE
+    syn clear coffeeParens
 
-   hi clear coffeeSpecialIdent
-   hi coffeeSpecialIdent NONE
-   syn clear coffeeSpecialIdent
+    hi clear coffeeSpecialIdent
+    hi coffeeSpecialIdent NONE
+    syn clear coffeeSpecialIdent
 
-   " Highlight the this symbol.
-   syn match coffeeThis "\v\@"
-   hi def link coffeeThis Keyword
+    " Highlight the this symbol.
+    syn match coffeeThis "\v\@"
+    hi def link coffeeThis Keyword
