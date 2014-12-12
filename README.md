@@ -31,6 +31,10 @@ VIM CoffeeScript syntax highlighters in order to properly color the '@' (this) s
     hi coffeeSpecialIdent NONE
     syn clear coffeeSpecialIdent
 
+    hi clear coffeeCurlies
+    hi coffeeCoffeeCurlies NONE
+    syn clear coffeeCurlies
+
     " Highlight the this symbol.
     syn match coffeeThis "\v\@"
     hi def link coffeeThis Keyword
