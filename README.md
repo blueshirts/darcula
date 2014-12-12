@@ -16,7 +16,7 @@ Accurate Darcula color scheme for the VIM editor.  Works well with CoffeeScript 
 
 Copy darcula.vim into `~/.vim/colors/` (Unix) or `vimfiles/colors/` (Windows).
 
-Type `"colorscheme railscasts"` into your vimrc file.
+Type `"colorscheme darcula"` into your vimrc file.
 
 ## CoffeeScript Configuration
 
