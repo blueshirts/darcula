@@ -2,4 +2,4 @@
 
 ## What it looks like...
 
-[[https://raw.githubusercontent.com/blueshirts/darcula/master/images/darcula1.png]]
+![Image of Preview](https://raw.githubusercontent.com/blueshirts/darcula/master/images/darcula1.png)
