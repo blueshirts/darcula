@@ -4,7 +4,11 @@ Accurate Darcula color scheme for the VIM editor.  Works well with CoffeeScript 
 
 ## What it looks like...
 
+### Using MacVim
+
 ![Mac Preview](https://raw.githubusercontent.com/blueshirts/darcula/master/images/darcula1.png)
+
+### Using iTerm2 (256)
 
 ![iterm2 Preview](https://raw.githubusercontent.com/blueshirts/darcula/master/images/darcula2.png)
 
