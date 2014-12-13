@@ -16,7 +16,7 @@ hi LineNr ctermfg=60 ctermbg=236 cterm=NONE guifg=#6a7179 guibg=#414141 gui=NONE
 hi CursorLineNr ctermfg=222 ctermbg=60 cterm=NONE guifg=#ffcf85 guibg=#6a7170 gui=NONE
 hi VertSplit ctermfg=59 ctermbg=59 cterm=NONE guifg=#505458 guibg=#505458 gui=NONE
 hi MatchParen ctermfg=173 ctermbg=NONE cterm=underline guifg=#d58b48 guibg=NONE gui=underline
-hi StatusLine ctermfg=188 ctermbg=236 cterm=bold guifg=#7ca8c6 guibg=#414141 gui=bold
+hi StatusLine ctermfg=67 ctermbg=236 cterm=bold guifg=#7ca8c6 guibg=#414141 gui=bold
 hi StatusLineNC ctermfg=188 ctermbg=236 cterm=NONE guifg=#6a7179 guibg=#414141 gui=NONE
 hi Pmenu ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi PmenuSel ctermfg=NONE ctermbg=24 cterm=NONE guifg=NONE guibg=#214283 gui=NONE
@@ -93,8 +93,8 @@ hi javaScriptFunction ctermfg=222 ctermbg=NONE cterm=NONE guifg=#d58b48 guibg=re
 hi javaScriptRailsFunction ctermfg=59 ctermbg=NONE cterm=bold guifg=#3c4c72 guibg=NONE gui=bold
 hi javaScriptBraces ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi yamlKey ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi yamlAnchor ctermfg=66 ctermbg=NONE cterm=NONE guifg=#7ca8c6 guibg=NONE gui=NONE
-hi yamlAlias ctermfg=66 ctermbg=NONE cterm=NONE guifg=#7ca8c6 guibg=NONE gui=NONE
+hi yamlAnchor ctermfg=67 ctermbg=NONE cterm=NONE guifg=#7ca8c6 guibg=NONE gui=NONE
+hi yamlAlias ctermfg=67 ctermbg=NONE cterm=NONE guifg=#7ca8c6 guibg=NONE gui=NONE
 hi yamlDocumentHeader ctermfg=NONE ctermbg=235 cterm=NONE guifg=NONE guibg=#292929 gui=NONE
 hi cssURL ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi cssFunctionName ctermfg=59 ctermbg=NONE cterm=bold guifg=#3c4c72 guibg=NONE gui=bold
