@@ -51,10 +51,10 @@ hi NonText ctermfg=188 ctermbg=235 cterm=NONE guifg=#b8c4d0 guibg=#393939 gui=NO
 hi Number ctermfg=67 ctermbg=NONE cterm=NONE guifg=#7ca8c6 guibg=NONE gui=NONE
 hi Operator ctermfg=250 ctermbg=NONE cterm=NONE guifg=#b8c4d0 guibg=NONE gui=NONE
 hi PreProc ctermfg=172 ctermbg=NONE cterm=NONE guifg=#d58b48 guibg=NONE gui=bold
-hi Special ctermfg=188 ctermbg=NONE cterm=NONE guifg=#b8c4d0 guibg=NONE gui=NONE
+hi Special ctermfg=172 ctermbg=NONE cterm=NONE guifg=#d58b48 guibg=NONE gui=bold
 hi SpecialKey ctermfg=250 ctermbg=236 cterm=NONE guifg=#bfbfbf guibg=#38393b gui=NONE
 hi Statement ctermfg=222 ctermbg=NONE cterm=NONE guifg=#ffcf85 guibg=NONE gui=NONE
-hi StorageClass ctermfg=172 ctermbg=NONE cterm=NONE guifg=#b8c4d0 guibg=NONE gui=bold
+hi StorageClass ctermfg=172 ctermbg=NONE cterm=NONE guifg=#d58b48 guibg=NONE gui=bold
 
 hi String ctermfg=71 ctermbg=NONE cterm=NONE guifg=#76976e guibg=NONE gui=NONE
 hi Tag ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
