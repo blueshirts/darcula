@@ -13,19 +13,19 @@ let g:colors_name = "darcula"
 
 hi Cursor ctermfg=188 ctermbg=250 cterm=NONE guifg=#393939 guibg=#b8c4d0 gui=NONE
 hi Visual ctermfg=NONE ctermbg=24 cterm=NONE guifg=NONE guibg=#214283 gui=NONE
-hi CursorLine ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#414141 gui=NONE
+hi CursorLine ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#404245 gui=NONE
 hi CursorColumn ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#38393b gui=NONE
 hi ColorColumn ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#38393b gui=NONE
-hi LineNr ctermfg=60 ctermbg=236 cterm=NONE guifg=#6a7179 guibg=#414141 gui=NONE
+hi LineNr ctermfg=60 ctermbg=236 cterm=NONE guifg=#9a9a9a guibg=#404245 gui=NONE
 hi CursorLineNr ctermfg=222 ctermbg=60 cterm=NONE guifg=#ffcf85 guibg=#6a7170 gui=NONE
-hi VertSplit ctermfg=60 ctermbg=236 cterm=NONE guifg=#414141 guibg=#414141 gui=NONE
+hi VertSplit ctermfg=60 ctermbg=236 cterm=NONE guifg=#404245 guibg=#404245 gui=NONE
 hi MatchParen ctermfg=173 ctermbg=NONE cterm=underline guifg=#d58b48 guibg=NONE gui=underline
-hi StatusLine ctermfg=67 ctermbg=236 cterm=bold guifg=#7ca8c6 guibg=#414141 gui=bold
-hi StatusLineNC ctermfg=188 ctermbg=236 cterm=NONE guifg=#6a7179 guibg=#414141 gui=NONE
+hi StatusLine ctermfg=67 ctermbg=236 cterm=bold guifg=#7ca8c6 guibg=#404245 gui=bold
+hi StatusLineNC ctermfg=188 ctermbg=236 cterm=NONE guifg=#9a9a9a guibg=#404245 gui=NONE
 hi Pmenu ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi PmenuSel ctermfg=NONE ctermbg=24 cterm=NONE guifg=NONE guibg=#214283 gui=NONE
 hi Search term=reverse ctermfg=188 ctermbg=24 guifg=#b8c4d0 guibg=#214283 gui=none
-hi IncSearch term=reverse ctermfg=188 ctermbg=24 guifg=#414141 guibg=#b1c73d gui=none
+hi IncSearch term=reverse ctermfg=188 ctermbg=24 guifg=#404245 guibg=#b1c73d gui=none
 hi Directory ctermfg=103 ctermbg=NONE cterm=NONE guifg=#9f8db7 guibg=NONE gui=italic
 hi Folded ctermfg=244 ctermbg=235 cterm=NONE guifg=#8e9292 guibg=#393939 gui=NONE
 
