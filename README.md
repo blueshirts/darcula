@@ -1,4 +1,4 @@
-# VIM Darcula Theme
+# VIM Darcula Theme 1.3.1
 
 Accurate Darcula color scheme for the VIM editor.  Works well with CoffeeScript projects.  Can be used in 256 color mode.
 
@@ -14,9 +14,39 @@ Accurate Darcula color scheme for the VIM editor.  Works well with CoffeeScript 
 
 ## Installation
 
-Copy darcula.vim into `~/.vim/colors/` (Unix) or `vimfiles/colors/` (Windows).
+### Option 1: Manual installation
 
-Type `"colorscheme darcula"` into your vimrc file.
+1.  Copy darcula.vim into `~/.vim/colors/` (Unix) or `vimfiles/colors/` (Windows).
+
+        $ cd darcula/colors
+        $ mv darcula.vim ~/.vim/colors/
+
+### Option 2: Pathogen installation ***(recommended)***
+
+
+1.  Download and install Tim Pope's [Pathogen](https://github.com/tpope/vim-pathogen).
+
+2.  Next, move or clone the `darcula` directory so that it is 
+    a subdirectory of the `.vim/bundle` directory.
+
+    a. **Clone:** 
+
+            $ cd ~/.vim/bundle && \
+            git clone git@github.com:blueshirts/darcula.git
+
+    b. **Move:**
+
+        In the parent directory of darcula:
+        
+            $ mv darcula ~/.vim/bundle/
+
+### Modify .vimrc
+
+After either Option 1 or Option 2 above, put the following two lines in your 
+.vimrc:
+
+    syntax enable
+    colorscheme darcula
 
 ## CoffeeScript Configuration
 

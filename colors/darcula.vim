@@ -93,8 +93,13 @@ hi htmlEndTag ctermfg=222 ctermbg=NONE cterm=NONE guifg=#ffcf85 guibg=NONE gui=N
 hi htmlTagName ctermfg=222 ctermbg=NONE cterm=NONE guifg=#ffcf85 guibg=NONE gui=NONE
 hi htmlArg ctermfg=222 ctermbg=NONE cterm=NONE guifg=#b8c4d0 guibg=NONE gui=NONE
 hi htmlSpecialChar ctermfg=103 ctermbg=NONE cterm=NONE guifg=#9f8db7 guibg=NONE gui=italic
-hi jsFuncNam ctermfg=222 ctermbg=NONE cterm=NONE guifg=#d58b48 guibg=red gui=bold
-hi jsFunction ctermfg=222 ctermbg=NONE cterm=NONE guifg=#ffcf85 guibg=NONE gui=NONE
+hi jsFunction ctermfg=222 ctermbg=NONE cterm=NONE guifg=#d58b48 guibg=NONE gui=bold
+hi jsFuncName ctermfg=222 ctermbg=NONE cterm=NONE guifg=#d58b48 guibg=red gui=bold
+hi jsFunctionKey ctermfg=222 ctermbg=NONE cterm=bold guifg=#ffcf85 guibg=NONE gui=bold
+hi jsCommonJs ctermfg=222 ctermbg=NONE cterm=bold guifg=#ffcf85 guibg=NONE gui=bold
+hi jsParen ctermfg=222 ctermbg=NONE cterm=bold guifg=#ffcf85 guibg=NONE gui=bold
+"hi jsFuncBlock ctermfg=103 ctermbg=NONE cterm=NONE guifg=#9f8db7 guibg=NONE gui=italic
+hi javaScriptFunction ctermfg=222 ctermbg=NONE cterm=NONE guifg=#d58b48 guibg=NONE gui=bold
 hi javaScriptRailsFunction ctermfg=59 ctermbg=NONE cterm=bold guifg=#3c4c72 guibg=NONE gui=bold
 hi javaScriptBraces ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi yamlKey ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
