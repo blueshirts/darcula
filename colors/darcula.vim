@@ -94,7 +94,7 @@ hi htmlTagName ctermfg=222 ctermbg=NONE cterm=NONE guifg=#ffcf85 guibg=NONE gui=
 hi htmlArg ctermfg=222 ctermbg=NONE cterm=NONE guifg=#b8c4d0 guibg=NONE gui=NONE
 hi htmlSpecialChar ctermfg=103 ctermbg=NONE cterm=NONE guifg=#9f8db7 guibg=NONE gui=italic
 hi jsFunction ctermfg=222 ctermbg=NONE cterm=NONE guifg=#d58b48 guibg=NONE gui=bold
-hi jsFuncName ctermfg=222 ctermbg=NONE cterm=NONE guifg=#d58b48 guibg=red gui=bold
+hi jsFuncName ctermfg=222 ctermbg=NONE cterm=bold guifg=#ffcf85 guibg=NONE gui=bold
 hi jsFunctionKey ctermfg=222 ctermbg=NONE cterm=bold guifg=#ffcf85 guibg=NONE gui=bold
 hi jsCommonJs ctermfg=222 ctermbg=NONE cterm=bold guifg=#ffcf85 guibg=NONE gui=bold
 hi jsParen ctermfg=222 ctermbg=NONE cterm=bold guifg=#ffcf85 guibg=NONE gui=bold
