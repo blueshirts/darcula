@@ -18,10 +18,10 @@ hi CursorColumn ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#313335 gui
 hi ColorColumn ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#313335 gui=NONE
 hi LineNr ctermfg=60 ctermbg=236 cterm=NONE guifg=#888888 guibg=#323232 gui=NONE
 hi CursorLineNr ctermfg=222 ctermbg=60 cterm=NONE guifg=#c57825 guibg=#6a7170 gui=NONE
-hi VertSplit ctermfg=60 ctermbg=236 cterm=NONE guifg=#323232 guibg=#323232 gui=NONE
+hi VertSplit ctermfg=60 ctermbg=236 cterm=NONE guifg=#555555 guibg=#323232 gui=NONE
 hi MatchParen ctermfg=173 ctermbg=NONE cterm=underline guifg=#c57825 guibg=NONE gui=underline
-hi StatusLine ctermfg=67 ctermbg=236 cterm=bold guifg=#7ca8c6 guibg=#323232 gui=bold
-hi StatusLineNC ctermfg=188 ctermbg=236 cterm=NONE guifg=#888888 guibg=#323232 gui=NONE
+hi StatusLine ctermfg=67 ctermbg=236 cterm=bold guifg=#a9b7c6 guibg=#323232 gui=bold
+hi StatusLineNC ctermfg=188 ctermbg=236 cterm=NONE guifg=#a9b7c6 guibg=#323232 gui=NONE
 hi Pmenu ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi PmenuSel ctermfg=NONE ctermbg=24 cterm=NONE guifg=NONE guibg=#214283 gui=NONE
 hi Search term=reverse ctermfg=188 ctermbg=24 guifg=#a9b7c6 guibg=#214283 gui=none
@@ -47,7 +47,7 @@ hi Function ctermfg=221 ctermbg=NONE cterm=bold guifg=#c57825 guibg=NONE gui=bol
 hi Identifier ctermfg=222 ctermbg=NONE cterm=NONE guifg=#c57825 guibg=NONE gui=NONE
 hi Keyword ctermfg=172 ctermbg=NONE cterm=NONE guifg=#c57825 guibg=NONE gui=bold
 hi Label ctermfg=103 ctermbg=NONE cterm=NONE guifg=#9676ac guibg=NONE gui=NONE
-hi NonText ctermfg=188 ctermbg=235 cterm=NONE guifg=#a9b7c6 guibg=#2b2b2b gui=NONE
+hi NonText ctermfg=188 ctermbg=235 cterm=NONE guifg=#888888 guibg=#2b2b2b gui=NONE
 hi Number ctermfg=67 ctermbg=NONE cterm=NONE guifg=#7ca8c6 guibg=NONE gui=NONE
 hi Operator ctermfg=250 ctermbg=NONE cterm=NONE guifg=#a9b7c6 guibg=NONE gui=NONE
 hi PreProc ctermfg=172 ctermbg=NONE cterm=NONE guifg=#c57825 guibg=NONE gui=bold
@@ -56,7 +56,7 @@ hi SpecialKey ctermfg=250 ctermbg=236 cterm=NONE guifg=#bfbfbf guibg=#313335 gui
 hi Statement ctermfg=222 ctermbg=NONE cterm=NONE guifg=#c57825 guibg=NONE gui=NONE
 hi StorageClass ctermfg=172 ctermbg=NONE cterm=NONE guifg=#c57825 guibg=NONE gui=bold
 
-hi String ctermfg=71 ctermbg=NONE cterm=NONE guifg=#609852 guibg=NONE gui=NONE
+hi String ctermfg=71 ctermbg=NONE cterm=NONE guifg=#5e8759 guibg=NONE gui=NONE
 hi Tag ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi Title ctermfg=159 ctermbg=NONE cterm=bold guifg=#a9b7c6 guibg=NONE gui=bold
 hi Todo ctermfg=040 ctermbg=NONE cterm=bold guifg=#b1c73d guibg=NONE gui=bold,italic
@@ -67,13 +67,13 @@ hi rubyFunction ctermfg=222 ctermbg=NONE cterm=bold guifg=#c57825 guibg=NONE gui
 hi rubyInterpolationDelimiter ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi rubySymbol ctermfg=103 ctermbg=NONE cterm=NONE guifg=#67609c guibg=NONE gui=italic
 hi rubyConstant ctermfg=68 ctermbg=NONE cterm=bold guifg=#9676ac guibg=NONE gui=bold
-hi rubyStringDelimiter ctermfg=71 ctermbg=NONE cterm=NONE guifg=#609852 guibg=NONE gui=NONE
+hi rubyStringDelimiter ctermfg=71 ctermbg=NONE cterm=NONE guifg=#5e8759 guibg=NONE gui=NONE
 hi rubyBlockParameter ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi rubyInstanceVariable ctermfg=66 ctermbg=NONE cterm=NONE guifg=#318495 guibg=NONE gui=NONE
 hi rubyInclude ctermfg=172 ctermbg=NONE cterm=NONE guifg=#c57825 guibg=NONE gui=bold
 hi rubyGlobalVariable ctermfg=66 ctermbg=NONE cterm=NONE guifg=#318495 guibg=NONE gui=NONE
-hi rubyRegexp ctermfg=71 ctermbg=NONE cterm=NONE guifg=#609852 guibg=NONE gui=NONE
-hi rubyRegexpDelimiter ctermfg=71 ctermbg=NONE cterm=NONE guifg=#609852 guibg=NONE gui=NONE
+hi rubyRegexp ctermfg=71 ctermbg=NONE cterm=NONE guifg=#5e8759 guibg=NONE gui=NONE
+hi rubyRegexpDelimiter ctermfg=71 ctermbg=NONE cterm=NONE guifg=#5e8759 guibg=NONE gui=NONE
 hi rubyEscape ctermfg=172 ctermbg=NONE cterm=NONE guifg=#c57825 guibg=NONE gui=bold
 hi rubyControl ctermfg=172 ctermbg=NONE cterm=NONE guifg=#c57825 guibg=NONE gui=bold
 hi rubyClassVariable ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
@@ -96,10 +96,10 @@ hi htmlArg ctermfg=222 ctermbg=NONE cterm=NONE guifg=#a9b7c6 guibg=NONE gui=NONE
 hi htmlSpecialChar ctermfg=103 ctermbg=NONE cterm=NONE guifg=#67609c guibg=NONE gui=italic
 hi jsFunction ctermfg=222 ctermbg=NONE cterm=NONE guifg=#c57825 guibg=NONE gui=bold
 hi jsFuncCall ctermfg=60 ctermbg=236 cterm=NONE guifg=#d9c767 guibg=NONE gui=NONE
-hi jsComment ctermfg=71 ctermbg=NONE cterm=NONE guifg=#609852 guibg=NONE gui=NONE
-hi jsBlockComment ctermfg=71 ctermbg=NONE cterm=NONE guifg=#609852 guibg=NONE gui=NONE
-hi jsDocTags ctermfg=71 ctermbg=NONE cterm=bold guifg=#609852 guibg=NONE gui=bold
-hi jsDocType ctermfg=71 ctermbg=NONE cterm=bold guifg=#609852 guibg=NONE gui=bold
+hi jsComment ctermfg=71 ctermbg=NONE cterm=NONE guifg=#5e8759 guibg=NONE gui=NONE
+hi jsBlockComment ctermfg=71 ctermbg=NONE cterm=NONE guifg=#5e8759 guibg=NONE gui=NONE
+hi jsDocTags ctermfg=71 ctermbg=NONE cterm=bold guifg=#5e8759 guibg=NONE gui=bold
+hi jsDocType ctermfg=71 ctermbg=NONE cterm=bold guifg=#5e8759 guibg=NONE gui=bold
 hi jsFuncName ctermfg=222 ctermbg=NONE cterm=bold guifg=#c57825 guibg=NONE gui=bold
 hi jsFunctionKey ctermfg=222 ctermbg=NONE cterm=bold guifg=#c57825 guibg=NONE gui=bold
 hi jsCommonJs ctermfg=222 ctermbg=NONE cterm=bold guifg=#c57825 guibg=NONE gui=bold
@@ -134,7 +134,7 @@ hi markdownH6 ctermfg=222 ctermbg=NONE cterm=NONE guifg=#c57825 guibg=NONE gui=N
 " Extra Jade highlighing.
 hi jadeId ctermfg=103 ctermbg=NONE cterm=NONE guifg=#67609c guibg=NONE gui=italic
 hi jadeClass ctermfg=68 ctermbg=NONE cterm=NONE guifg=#9676ac guibg=NONE gui=NONE
-hi jadePipedText ctermfg=71 ctermbg=NONE cterm=NONE guifg=#609852 guibg=NONE gui=NONE
+hi jadePipedText ctermfg=71 ctermbg=NONE cterm=NONE guifg=#5e8759 guibg=NONE gui=NONE
 
 " Extra JSON highlighting.
 hi jsonBraces ctermfg=188 ctermbg=235 cterm=NONE guifg=#a9b7c6 guibg=#2b2b2b gui=NONE
@@ -143,3 +143,6 @@ hi jsonBraces ctermfg=188 ctermbg=235 cterm=NONE guifg=#a9b7c6 guibg=#2b2b2b gui
 hi coffeeObjAssign ctermfg=222 ctermbg=NONE cterm=NONE guifg=#d9c767 guibg=NONE gui=NONE
 hi coffeeSpecialVar ctermfg=188 ctermbg=235 cterm=NONE guifg=#a9b7c6 guibg=#2b2b2b gui=NONE
 
+" Extra VIM highlighting.
+hi vimOption ctermfg=222 ctermbg=NONE cterm=NONE guifg=#d9c767 guibg=NONE gui=NONE
+ 
