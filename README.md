@@ -1,10 +1,10 @@
-# VIM Darcula Theme 1.4
+# VIM Darcula Theme 1.6
 
 Accurate Darcula color scheme for the VIM editor.  Works well with CoffeeScript projects.  Can be used in 256 color mode.
 
 ## What's New?
 
-Updated more accurate colors and additional highlighting.
+Updated the popup colors to be easier on the eyes.
 
 ## What it looks like...
 
