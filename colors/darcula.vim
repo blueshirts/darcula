@@ -94,7 +94,7 @@ hi htmlArg ctermfg=222 ctermbg=NONE cterm=NONE guifg=#a9b7c6 guibg=NONE gui=NONE
 hi htmlSpecialChar ctermfg=103 ctermbg=NONE cterm=NONE guifg=#67609c guibg=NONE gui=italic
 hi jsFunction ctermfg=222 ctermbg=NONE cterm=NONE guifg=#c57825 guibg=NONE gui=bold
 hi jsFuncCall ctermfg=60 ctermbg=236 cterm=NONE guifg=#d9c767 guibg=NONE gui=NONE
-hi jsComment ctermfg=71 ctermbg=NONE cterm=NONE guifg=#5e8759 guibg=NONE gui=NONE
+hi jsComment ctermfg=244 ctermbg=NONE cterm=NONE guifg=#8e9292 guibg=NONE gui=none
 hi jsBlockComment ctermfg=71 ctermbg=NONE cterm=NONE guifg=#5e8759 guibg=NONE gui=NONE
 hi jsDocTags ctermfg=71 ctermbg=NONE cterm=bold guifg=#5e8759 guibg=NONE gui=bold
 hi jsDocType ctermfg=71 ctermbg=NONE cterm=bold guifg=#5e8759 guibg=NONE gui=bold
@@ -138,6 +138,7 @@ hi jadePipedText ctermfg=71 ctermbg=NONE cterm=NONE guifg=#5e8759 guibg=NONE gui
 hi jsonBraces ctermfg=188 ctermbg=235 cterm=NONE guifg=#a9b7c6 guibg=#2b2b2b gui=NONE
 
 " Extra CoffeeScript highlighting.
+hi coffeeObject ctermfg=188 ctermbg=235 cterm=NONE guifg=#a9b7c6 guibg=#2b2b2b gui=NONE
 hi coffeeObjAssign ctermfg=222 ctermbg=NONE cterm=NONE guifg=#d9c767 guibg=NONE gui=NONE
 hi coffeeSpecialVar ctermfg=188 ctermbg=235 cterm=NONE guifg=#a9b7c6 guibg=#2b2b2b gui=NONE
 
