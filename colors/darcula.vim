@@ -2,7 +2,6 @@
 " Darcula colorscheme for VIM.
 "
 
-set background=dark
 highlight clear
 
 if exists("syntax_on")
@@ -169,3 +168,14 @@ hi PmenuSel ctermfg=188 ctermbg=24 term=reverse guifg=NONE guibg=#214283 gui=NON
 hi PmenuSbar  ctermfg=NONE ctermbg=24 guifg=NONE guibg=#8e9292
 hi PmenuThumb ctermfg=59 ctermbg=NONE guifg=NONE guibg=NONE
 
+" Spelling highlighting.
+hi clear SpellBad
+hi clear SpellCap
+hi clear SpellRare
+hi clear SpellLocal
+hi SpellBad ctermfg=150 ctermbg=NONE cterm=undercurl term=undercurl guifg=#aeae80 guibg=NONE gui=undercurl
+hi SpellCap ctermfg=150 ctermbg=NONE cterm=undercurl guifg=#aeae80 guibg=NONE gui=undercurl
+hi SpellRare ctermfg=150 ctermbg=NONE cterm=undercurl guifg=#aeae80 guibg=NONE gui=undercurl
+hi SpellLocal ctermfg=150 ctermbg=NONE cterm=undercurl guifg=#aeae80 guibg=NONE gui=undercurl
+
+set background=dark
