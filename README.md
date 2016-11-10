@@ -18,35 +18,13 @@ Updated the popup colors to be easier on the eyes.
 
 ## Installation
 
-### Option 1: Manual installation
+- Copy darcula.vim into `~/.vim/colors/` (Unix) or `vimfiles/colors/` (Windows).
 
-1.  Copy darcula.vim into `~/.vim/colors/` (Unix) or `vimfiles/colors/` (Windows).
-
-        $ cd darcula/colors
-        $ mv darcula.vim ~/.vim/colors/
-
-### Option 2: Pathogen installation ***(recommended)***
-
-
-1.  Download and install Tim Pope's [Pathogen](https://github.com/tpope/vim-pathogen).
-
-2.  Next, move or clone the `darcula` directory so that it is 
-    a subdirectory of the `.vim/bundle` directory.
-
-    a. **Clone:** 
-
-            $ cd ~/.vim/bundle && \
-            git clone git@github.com:blueshirts/darcula.git
-
-    b. **Move:**
-
-        In the parent directory of darcula:
-        
-            $ mv darcula ~/.vim/bundle/
+        $ cp darcula/colors/darcula.vim ~/.vim/colors/
 
 ### Modify .vimrc
 
-After either Option 1 or Option 2 above, put the following two lines in your 
+After either Option 1 or Option 2 above, put the following two lines in your
 .vimrc:
 
     syntax enable
