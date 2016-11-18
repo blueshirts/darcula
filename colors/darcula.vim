@@ -178,4 +178,7 @@ hi SpellCap ctermfg=150 ctermbg=NONE cterm=undercurl guifg=#aeae80 guibg=NONE gu
 hi SpellRare ctermfg=150 ctermbg=NONE cterm=undercurl guifg=#aeae80 guibg=NONE gui=undercurl
 hi SpellLocal ctermfg=150 ctermbg=NONE cterm=undercurl guifg=#aeae80 guibg=NONE gui=undercurl
 
+" NonText are 'end of the window' symbols, showbreak and various others. See :he highlight-groups
+hi NonText ctermfg=244 ctermbg=NONE cterm=NONE guifg=#8e9292 guibg=NONE gui=none
+
 set background=dark
