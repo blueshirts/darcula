@@ -50,7 +50,7 @@ hi Operator ctermfg=250 ctermbg=NONE cterm=NONE guifg=#a9b7c6 guibg=NONE gui=NON
 hi PreProc ctermfg=172 ctermbg=NONE cterm=NONE guifg=#c57825 guibg=NONE gui=bold
 hi Special ctermfg=172 ctermbg=NONE cterm=NONE guifg=#c57825 guibg=NONE gui=bold
 hi SpecialKey ctermfg=250 ctermbg=236 cterm=NONE guifg=#bfbfbf guibg=#313335 gui=NONE
-hi Statement ctermfg=222 ctermbg=NONE cterm=NONE guifg=#c57825 guibg=NONE gui=NONE
+hi Statement ctermfg=172 ctermbg=NONE cterm=NONE guifg=#c57825 guibg=NONE gui=NONE
 hi StorageClass ctermfg=172 ctermbg=NONE cterm=NONE guifg=#c57825 guibg=NONE gui=bold
 
 hi String ctermfg=71 ctermbg=NONE cterm=NONE guifg=#5e8759 guibg=NONE gui=NONE
@@ -125,6 +125,8 @@ hi jsParen ctermfg=188 ctermbg=235 cterm=NONE guifg=#a9b7c6 guibg=#2b2b2b gui=NO
 hi javaScriptFunction ctermfg=222 ctermbg=NONE cterm=NONE guifg=#c57825 guibg=NONE gui=bold
 hi javaScriptRailsFunction ctermfg=59 ctermbg=NONE cterm=bold guifg=#3c4c72 guibg=NONE gui=bold
 hi javaScriptBraces ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
+hi jsObjectKey ctermfg=68 ctermbg=NONE cterm=bold guifg=#9676ac guibg=NONE gui=bold
+
 
 " Extra Markdown highlighing.
 hi markdownHeadingDelimiter ctermfg=172 ctermbg=NONE cterm=NONE guifg=#c57825 guibg=NONE gui=bold
@@ -155,6 +157,12 @@ hi javaTypeDef ctermfg=222 ctermbg=NONE cterm=NONE guifg=#d9c767 guibg=NONE gui=
 
 " Extra VIM highlighting.
 hi vimOption ctermfg=222 ctermbg=NONE cterm=NONE guifg=#d9c767 guibg=NONE gui=NONE
+hi vimUserFunc ctermfg=222 ctermbg=NONE cterm=NONE guifg=#d9c767 guibg=NONE gui=NONE
+hi vimCommand ctermfg=172 ctermbg=NONE cterm=NONE guifg=#c57825 guibg=NONE gui=NONE
+hi vimParenSep ctermfg=188 ctermbg=235 cterm=NONE guifg=#a9b7c6 guibg=#2b2b2b gui=NONE
+hi vimVar ctermfg=188 ctermbg=235 cterm=NONE guifg=#a9b7c6 guibg=#2b2b2b gui=NONE
+hi vimFuncName ctermfg=68 ctermbg=NONE cterm=NONE guifg=#9676ac guibg=NONE gui=NONE
+hi vimIsCommand ctermfg=188 ctermbg=235 cterm=NONE guifg=#a9b7c6 guibg=#2b2b2b gui=NONE
 
 " Extra CtrlP highlighting.
 hi CtrlPMatch term=reverse ctermfg=188 ctermbg=24 guifg=#a9b7c6 guibg=#214283 gui=none
