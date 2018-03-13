@@ -18,17 +18,29 @@ Updated the popup colors to be easier on the eyes.
 
 ## Installation
 
+### Janus: Vim Distribution
+
+Darcula color support has now been added to the Janus Vim Distribution (https://github.com/carlhuda/janus).  Follow the instructions for installing Janus and simply enable syntax highlighting by creating/updating your ~/.vimrc.after file.
+
+.vimrc.after:
+
+    syntax enable
+    colorscheme darcula
+    
+    
+### Manual Installation
+
 - Copy darcula.vim into `~/.vim/colors/` (Unix) or `vimfiles/colors/` (Windows).
 
         $ cp darcula/colors/darcula.vim ~/.vim/colors/
 
-### Modify .vimrc
+- Update your .vimrc file to enable highlighting.
 
-After either Option 1 or Option 2 above, put the following two lines in your
 .vimrc:
 
     syntax enable
     colorscheme darcula
+
 
 ## CoffeeScript Configuration
 
