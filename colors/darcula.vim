@@ -164,7 +164,7 @@ hi vimUserFunc ctermfg=222 ctermbg=NONE cterm=NONE guifg=#d9c767 guibg=NONE gui=
 hi vimCommand ctermfg=172 ctermbg=NONE cterm=NONE guifg=#c57825 guibg=NONE gui=NONE
 hi vimParenSep ctermfg=188 ctermbg=235 cterm=NONE guifg=#a9b7c6 guibg=#2b2b2b gui=NONE
 hi vimVar ctermfg=188 ctermbg=235 cterm=NONE guifg=#a9b7c6 guibg=#2b2b2b gui=NONE
-hi vimFuncName ctermfg=103 ctermbg=NONE cterm=NONE guifg=#: guibg=NONE gui=NONE
+hi vimFuncName ctermfg=103 ctermbg=NONE cterm=NONE guifg=#a9b7c6 guibg=NONE gui=NONE
 hi vimIsCommand ctermfg=188 ctermbg=235 cterm=NONE guifg=#a9b7c6 guibg=#2b2b2b gui=NONE
 
 " Extra CtrlP highlighting.
