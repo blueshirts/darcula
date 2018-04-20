@@ -127,8 +127,8 @@ hi jsParen ctermfg=188 ctermbg=235 cterm=NONE guifg=#a9b7c6 guibg=#2b2b2b gui=NO
 hi javaScriptFunction ctermfg=222 ctermbg=NONE cterm=NONE guifg=#c57825 guibg=NONE gui=bold
 hi javaScriptRailsFunction ctermfg=59 ctermbg=NONE cterm=bold guifg=#3c4c72 guibg=NONE gui=bold
 hi javaScriptBraces ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi jsObjectKey ctermfg=147 ctermbg=NONE cterm=bold guifg=#9676ac guibg=NONE gui=bold
-hi jsGlobalObjects ctermfg=147 ctermbg=NONE cterm=bold guifg=#9676ac guibg=NONE gui=bold
+hi jsObjectKey ctermfg=103 ctermbg=NONE cterm=bold guifg=#9676ac guibg=NONE gui=bold
+hi jsGlobalObjects ctermfg=103 ctermbg=NONE cterm=bold guifg=#9676ac guibg=NONE gui=bold
 
 
 " Extra Markdown highlighing.
@@ -142,7 +142,7 @@ hi markdownH6 ctermfg=222 ctermbg=NONE cterm=NONE guifg=#c57825 guibg=NONE gui=N
 
 " Extra Jade highlighing.
 hi jadeId ctermfg=103 ctermbg=NONE cterm=NONE guifg=#67609c guibg=NONE gui=italic
-hi jadeClass ctermfg=68 ctermbg=NONE cterm=NONE guifg=#9676ac guibg=NONE gui=NONE
+hi jadeClass ctermfg=103 ctermbg=NONE cterm=NONE guifg=#9676ac guibg=NONE gui=NONE
 hi jadePipedText ctermfg=65 ctermbg=NONE cterm=NONE guifg=#5e8759 guibg=NONE gui=NONE
 
 " Extra JSON highlighting.
@@ -164,7 +164,7 @@ hi vimUserFunc ctermfg=222 ctermbg=NONE cterm=NONE guifg=#d9c767 guibg=NONE gui=
 hi vimCommand ctermfg=172 ctermbg=NONE cterm=NONE guifg=#c57825 guibg=NONE gui=NONE
 hi vimParenSep ctermfg=188 ctermbg=235 cterm=NONE guifg=#a9b7c6 guibg=#2b2b2b gui=NONE
 hi vimVar ctermfg=188 ctermbg=235 cterm=NONE guifg=#a9b7c6 guibg=#2b2b2b gui=NONE
-hi vimFuncName ctermfg=68 ctermbg=NONE cterm=NONE guifg=#9676ac guibg=NONE gui=NONE
+hi vimFuncName ctermfg=103 ctermbg=NONE cterm=NONE guifg=#: guibg=NONE gui=NONE
 hi vimIsCommand ctermfg=188 ctermbg=235 cterm=NONE guifg=#a9b7c6 guibg=#2b2b2b gui=NONE
 
 " Extra CtrlP highlighting.
