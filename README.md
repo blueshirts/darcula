@@ -1,4 +1,4 @@
-# VIM Darcula Theme 1.7.2
+# VIM Darcula Theme 1.7.3
 
 Accurate Darcula color scheme for the VIM editor.  Works well with CoffeeScript projects.  Can be used in 256 color mode.
 
