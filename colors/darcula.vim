@@ -192,4 +192,9 @@ hi SpellLocal ctermfg=150 ctermbg=NONE cterm=undercurl guifg=#aeae80 guibg=NONE 
 " NonText are 'end of the window' symbols, showbreak and various others. See :he highlight-groups
 hi NonText ctermfg=244 ctermbg=NONE cterm=NONE guifg=#8e9292 guibg=NONE gui=none
 
+" Highlighting for built-in tabs.
+hi TabLineFill ctermfg=146 ctermbg=16 cterm=NONE guifg=#a9b7c6 guibg=#2b2b2b gui=NONE
+hi TabLine ctermfg=146 ctermbg=16 cterm=NONE guifg=#a9b7c6 guibg=#2b2b2b gui=NONE
+hi TabLineSel ctermfg=146 ctermbg=59 cterm=NONE guifg=#a9b7c6 guibg=#515658 gui=NONE
+
 set background=dark
